@@ -29,8 +29,8 @@ def fizzbuzz(n):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) <= 2:
-        print("Missing number or too many arguments")
+    if len(sys.argv) != 2:
+        print("Invalid number of arguments")
         print("Usage: ./0-fizzbuzz.py <number>")
         print("Example: ./0-fizzbuzz.py 89")
         sys.exit(1)
